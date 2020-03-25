@@ -1,0 +1,59 @@
+@import './reset.scss';
+
+.block{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  border-radius: 10px;
+  padding: 0 20px;
+  line-height: 49px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 5px;
+  display: inline-block;
+}
+.blue-normal{
+  color: #00339C;
+  font-size: 23px;
+}
+.blue-bold{
+  color: #00339C;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.orange-title{
+  color: #520000;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.square{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.black-normal{
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  color: #0F0F0F
+}
+.black-big{
+  font-size: 24px;
+  color: #0F0F0F
+}
+//p,span,div,h1,a{
+//  transition:all 0.5s;
+// /* transform-origin: 0 100%;*/
+//}
+//p:hover,span:hover,h1:hover,a:hover {
+// /* transform:scale(1.2)*/
+//  transform: scale(1.15);
+//}
