@@ -33,7 +33,7 @@
 import echarts from 'echarts'
 require('echarts/theme/macarons') // echarts theme
 import { Popup, Picker, Field } from 'vant'
-import surveyMixin from '../mixins/surveyMixin'
+import surveyMixin from '../utils/mixins/surveyMixin'
 export default {
   components: {
     VanPopup: Popup,

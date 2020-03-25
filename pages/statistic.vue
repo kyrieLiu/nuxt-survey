@@ -18,8 +18,8 @@
 
 <script>
 import { Tabs, Tab } from 'vant'
-import surveyList from './components/surveyList'
-import chartStatistic from './components/chartStatistic'
+import surveyList from '../components/surveyList'
+import chartStatistic from '../components/chartStatistic'
 export default {
   components: {
     VanTab: Tab,
