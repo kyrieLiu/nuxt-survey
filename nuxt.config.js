@@ -1,6 +1,10 @@
 
 module.exports = {
   mode: 'universal',
+  server: {
+    port: 3001 // default: 3000
+    // host: '0.0.0.0' // default: localhost
+  },
   router: {
     base: '/question/'
   },
@@ -66,7 +70,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }
