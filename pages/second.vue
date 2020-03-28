@@ -4,7 +4,7 @@
    Description:
  -->
 <template>
-  <article>第二页</article>
+  <article>第二页修改</article>
 </template>
 
 <script>
